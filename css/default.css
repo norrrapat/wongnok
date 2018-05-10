@@ -1,0 +1,61 @@
+.thumbnail{
+    width: 200px;
+    height: 135px;
+}
+
+.borderResult{
+    border: 1px black solid;
+}
+
+.marginBot{
+    margin-bottom: 15px
+}
+
+.center{
+    text-align: center;
+}
+
+.marginAuto{
+    margin: auto;
+}
+
+.bgcolor{
+    background-color: bisque
+}
+
+.resultColor{
+    background-color: azure
+}
+
+.bd-example {
+    width: 300px;
+    position: relative;
+    margin: 1rem -15px 0;
+    border-width: .2rem 0 0;
+}
+.photo{
+    width: 300px;
+    height: 200px;
+}
+
+.checked {
+    color: orange;
+}
+
+.about{
+    font-weight: 300;
+}
+
+
+@media (min-width: 576px){
+    .bd-example{
+        width: 900px;
+        margin-right: 0;
+        margin-left: 0;
+        border-width: .2rem;
+    }
+    .photo{
+        width: 900px;
+        height: 600px;
+    }
+}
